@@ -12,7 +12,10 @@ clear;
 % toc;
 
 %%%%% 从去背景后的图像获取颗粒对比度，先RVT + 强度阈值获取粗定位，后ROI高斯拟合获取contrast、localization
-a0=readTIF('E:\\data\\25.3.19\\nanobem24\\1\\deconvs_compares.tif');
+%%%%% The particle contrast was obtained from the image after background removal, the RVT intensity 
+%%%%% threshold was obtained for coarse positioning, and then the ROI Gaussian fitting was obtained for 
+%%%%% contrast and localization
+a0=readTIF('deconvs_compares.tif');
 rr=1:50;
 t1=0.02; t2=0.05 ;r1=5;
 means=1;
