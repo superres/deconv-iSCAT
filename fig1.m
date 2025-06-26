@@ -6,9 +6,7 @@ warning off;
 m=1; n=2;
 p=[20,1;20,40;35,1;35,40];
 colorss={'k','r'};
- %%% filters_deconvs_compare4_ROI.tif
-% a0=readTIF('E:\\Papers\\my own\\deconv-iSCAT\\figs\\6.12\\compares_deconvs_filters.tif'); 
-a0=readTIF('E:\\data\\25.3.19\\nanobem24\\1\\deconvs_compares.tif');
+a0=readTIF('deconvs_compares.tif');
 ps=[301,443;301,453];
 l=20;
 xx=1:2*l+1; xx=xx*0.058;
