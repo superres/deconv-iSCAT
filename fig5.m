@@ -3,7 +3,7 @@ clear;
 
 %%% gig 5 2. load processed images and present the ROI  and the signal and
 %%% background cut-line intensity
-a0=readTIF('E:\\data\\25.3.19\\nanobem24\\1\\compares_deconvs_filters.tif'); 
+a0=readTIF('compares_deconvs_filters.tif'); 
 a0=a0(397:460,391:454,:);
 figure; m=5; n=5;
 max1=max(max(max(a0))); min1=min(min(min(a0))); l=max1-min1;
