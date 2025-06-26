@@ -1,8 +1,7 @@
 clc; close all;
 clear;
 
-% a0=readTIF('E:\\data\\25.3.19\\nanobem24\\1\\deconvs_compares.tif');
-a0=readTIF('E:\\Papers\\my own\\deconv-iSCAT\\figs\\6.12\\compares_deconvs_filters.tif'); 
+a0=readTIF('compares_deconvs_filters.tif'); 
 a0=a0(101:300,101:300,:);
 
 titles={'Raw','RL','Wiener','RL Wiener','SF'};
